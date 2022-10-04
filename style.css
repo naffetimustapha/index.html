@@ -1,0 +1,82 @@
+*{ font-family:font-family: 'Roboto', sans-serif; 
+
+}
+*{
+    font-weight: normal;
+    font-size: medium;
+    }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background-color: darkblue;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 5px;
+}
+a{
+    text-decoration: solid;
+    color:black;
+}
+.logo{
+    padding: 8px;
+}
+.gallery h1{
+    text-align: center;
+    font-variant: inherit;
+    font-size: 30px;
+    color: cyan;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    margin-left: 500px;
+    margin-right:500px;
+    
+}
+.audio h1{
+    text-align: center;
+    font-size: larger;
+    font-display: 30px;
+    color: rgb(238, 3, 3);
+}
+audio{
+    width: 800px;
+    margin: 80px;
+}
+.date input{
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+}
+video{
+    margin: 80px;
+
+}
+.par h1{
+    font-size: larger;
+    font-style: italic;
+    text-align: start;
+    color: darkmagenta;
+
+}
+.par p{
+    font-size: medium;
+    text-align: start;
+    color: black;
+
+}
+footer{
+    background-color: darksalmon;
+    color: blueviolet;
+    text-align: end;
+    
+    padding: 30px;
+}
